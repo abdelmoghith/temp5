@@ -98,4 +98,10 @@ body {
 .spn1:hover{
     color: hsl(178, 100%, 50%);
 }
-
+@media (max-width:768px) {
+    .listes{
+        display: flex;
+    flex-direction: column;
+    }
+    
+}
